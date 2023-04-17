@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FACA15B129E4A42900106A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15B029E4A42900106A3E /* AppDelegate.swift */; };
+		FACA15B329E4A42900106A3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15B229E4A42900106A3E /* SceneDelegate.swift */; };
+		FACA15B529E4A42900106A3E /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15B429E4A42900106A3E /* LandingViewController.swift */; };
+		FACA15BA29E4A42B00106A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACA15B929E4A42B00106A3E /* Assets.xcassets */; };
+		FACA15BD29E4A42B00106A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA15BB29E4A42B00106A3E /* LaunchScreen.storyboard */; };
+		FACA15C729E4A47D00106A3E /* DisneyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15C629E4A47D00106A3E /* DisneyButton.swift */; };
+		FACA15CD29E4A5B000106A3E /* waltograph.txt in Resources */ = {isa = PBXBuildFile; fileRef = FACA15C929E4A5B000106A3E /* waltograph.txt */; };
+		FACA15CE29E4A5B000106A3E /* waltograph42.otf in Resources */ = {isa = PBXBuildFile; fileRef = FACA15CA29E4A5B000106A3E /* waltograph42.otf */; };
+		FACA15D029E4A5B000106A3E /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = FACA15CC29E4A5B000106A3E /* license.txt */; };
+		FACA15D229E5940F00106A3E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15D129E5940F00106A3E /* LoginViewController.swift */; };
+		FACA15D429E5955800106A3E /* DisneyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15D329E5955800106A3E /* DisneyTextField.swift */; };
+		FACA15D729E59C2500106A3E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15D629E59C2500106A3E /* ViewModel.swift */; };
+		FACA15D929E59D3A00106A3E /* ApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15D829E59D3A00106A3E /* ApiModel.swift */; };
+		FACA15DB29E59EA900106A3E /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15DA29E59EA900106A3E /* Characters.swift */; };
+		FACA15DD29E5A01000106A3E /* DisneyInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15DC29E5A01000106A3E /* DisneyInfoCard.swift */; };
+		FACA15DF29E5A59500106A3E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA15DE29E5A59500106A3E /* HomeViewController.swift */; };
+		FACA15E029E5C3FD00106A3E /* waltographUI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FACA15CB29E4A5B000106A3E /* waltographUI.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FACA15AD29E4A42900106A3E /* DisneyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisneyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FACA15B029E4A42900106A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FACA15B229E4A42900106A3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FACA15B429E4A42900106A3E /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		FACA15B929E4A42B00106A3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FACA15BC29E4A42B00106A3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FACA15BE29E4A42B00106A3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACA15C629E4A47D00106A3E /* DisneyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyButton.swift; sourceTree = "<group>"; };
+		FACA15C929E4A5B000106A3E /* waltograph.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = waltograph.txt; sourceTree = "<group>"; };
+		FACA15CA29E4A5B000106A3E /* waltograph42.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = waltograph42.otf; sourceTree = "<group>"; };
+		FACA15CB29E4A5B000106A3E /* waltographUI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = waltographUI.ttf; sourceTree = "<group>"; };
+		FACA15CC29E4A5B000106A3E /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		FACA15D129E5940F00106A3E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FACA15D329E5955800106A3E /* DisneyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyTextField.swift; sourceTree = "<group>"; };
+		FACA15D629E59C2500106A3E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FACA15D829E59D3A00106A3E /* ApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModel.swift; sourceTree = "<group>"; };
+		FACA15DA29E59EA900106A3E /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		FACA15DC29E5A01000106A3E /* DisneyInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyInfoCard.swift; sourceTree = "<group>"; };
+		FACA15DE29E5A59500106A3E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FACA15AA29E4A42900106A3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FACA15A429E4A42900106A3E = {
+			isa = PBXGroup;
+			children = (
+				FACA15AF29E4A42900106A3E /* DisneyApp */,
+				FACA15AE29E4A42900106A3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FACA15AE29E4A42900106A3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FACA15AD29E4A42900106A3E /* DisneyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACA15AF29E4A42900106A3E /* DisneyApp */ = {
+			isa = PBXGroup;
+			children = (
+				FACA15D829E59D3A00106A3E /* ApiModel.swift */,
+				FACA15DA29E59EA900106A3E /* Characters.swift */,
+				FACA15D629E59C2500106A3E /* ViewModel.swift */,
+				FACA15D529E5956600106A3E /* Utils */,
+				FACA15B029E4A42900106A3E /* AppDelegate.swift */,
+				FACA15B229E4A42900106A3E /* SceneDelegate.swift */,
+				FACA15B429E4A42900106A3E /* LandingViewController.swift */,
+				FACA15D129E5940F00106A3E /* LoginViewController.swift */,
+				FACA15DE29E5A59500106A3E /* HomeViewController.swift */,
+				FACA15B929E4A42B00106A3E /* Assets.xcassets */,
+				FACA15BB29E4A42B00106A3E /* LaunchScreen.storyboard */,
+				FACA15BE29E4A42B00106A3E /* Info.plist */,
+				FACA15C829E4A5B000106A3E /* fonts */,
+			);
+			path = DisneyApp;
+			sourceTree = "<group>";
+		};
+		FACA15C829E4A5B000106A3E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FACA15C929E4A5B000106A3E /* waltograph.txt */,
+				FACA15CA29E4A5B000106A3E /* waltograph42.otf */,
+				FACA15CB29E4A5B000106A3E /* waltographUI.ttf */,
+				FACA15CC29E4A5B000106A3E /* license.txt */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		FACA15D529E5956600106A3E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FACA15C629E4A47D00106A3E /* DisneyButton.swift */,
+				FACA15D329E5955800106A3E /* DisneyTextField.swift */,
+				FACA15DC29E5A01000106A3E /* DisneyInfoCard.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FACA15AC29E4A42900106A3E /* DisneyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FACA15C129E4A42B00106A3E /* Build configuration list for PBXNativeTarget "DisneyApp" */;
+			buildPhases = (
+				FACA15A929E4A42900106A3E /* Sources */,
+				FACA15AA29E4A42900106A3E /* Frameworks */,
+				FACA15AB29E4A42900106A3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DisneyApp;
+			productName = DisneyApp;
+			productReference = FACA15AD29E4A42900106A3E /* DisneyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FACA15A529E4A42900106A3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FACA15AC29E4A42900106A3E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FACA15A829E4A42900106A3E /* Build configuration list for PBXProject "DisneyApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FACA15A429E4A42900106A3E;
+			productRefGroup = FACA15AE29E4A42900106A3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FACA15AC29E4A42900106A3E /* DisneyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FACA15AB29E4A42900106A3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACA15BD29E4A42B00106A3E /* LaunchScreen.storyboard in Resources */,
+				FACA15E029E5C3FD00106A3E /* waltographUI.ttf in Resources */,
+				FACA15CE29E4A5B000106A3E /* waltograph42.otf in Resources */,
+				FACA15D029E4A5B000106A3E /* license.txt in Resources */,
+				FACA15CD29E4A5B000106A3E /* waltograph.txt in Resources */,
+				FACA15BA29E4A42B00106A3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FACA15A929E4A42900106A3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACA15B529E4A42900106A3E /* LandingViewController.swift in Sources */,
+				FACA15B129E4A42900106A3E /* AppDelegate.swift in Sources */,
+				FACA15C729E4A47D00106A3E /* DisneyButton.swift in Sources */,
+				FACA15DD29E5A01000106A3E /* DisneyInfoCard.swift in Sources */,
+				FACA15D229E5940F00106A3E /* LoginViewController.swift in Sources */,
+				FACA15DB29E59EA900106A3E /* Characters.swift in Sources */,
+				FACA15D929E59D3A00106A3E /* ApiModel.swift in Sources */,
+				FACA15DF29E5A59500106A3E /* HomeViewController.swift in Sources */,
+				FACA15B329E4A42900106A3E /* SceneDelegate.swift in Sources */,
+				FACA15D429E5955800106A3E /* DisneyTextField.swift in Sources */,
+				FACA15D729E59C2500106A3E /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FACA15BB29E4A42B00106A3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FACA15BC29E4A42B00106A3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FACA15BF29E4A42B00106A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FACA15C029E4A42B00106A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FACA15C229E4A42B00106A3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPHA4TL4ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DisneyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alinedoamaral.DisneyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FACA15C329E4A42B00106A3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KPHA4TL4ML;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DisneyApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alinedoamaral.DisneyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FACA15A829E4A42900106A3E /* Build configuration list for PBXProject "DisneyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACA15BF29E4A42B00106A3E /* Debug */,
+				FACA15C029E4A42B00106A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FACA15C129E4A42B00106A3E /* Build configuration list for PBXNativeTarget "DisneyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACA15C229E4A42B00106A3E /* Debug */,
+				FACA15C329E4A42B00106A3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FACA15A529E4A42900106A3E /* Project object */;
+}
