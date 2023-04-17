@@ -190,8 +190,7 @@ class LoginViewController: UIViewController {
             nameAndGreetingsStackView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
             nameAndGreetingsStackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10),
             nameAndGreetingsStackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
-            
-//            textfieldStackView.topAnchor.constraint(equalTo: nameAndGreetingsStackView.bottomAnchor, constant: 40),
+
             textfieldStackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -55),
             textfieldStackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 55),
             textfieldStackView.centerXAnchor.constraint(equalTo: contentView.centerXAnchor),
@@ -210,7 +209,6 @@ class LoginViewController: UIViewController {
         navigationController?.pushViewController(controller, animated: true)
     }
 }
-
 
 //MARK: - Extensions
 extension LoginViewController: UITextFieldDelegate {

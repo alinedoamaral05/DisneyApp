@@ -7,58 +7,74 @@
 
 import UIKit
 
-class DisneyInfoCard: UIView {
+class DisneyInfoCard: UITableViewCell {
+    
+    var filmsArray: [String] = []
+    var shortFilmsArray: [String] = []
+    var tvShowsArray: [String] = []
+    var parkAttractionsArray: [String] = []
+    var alliesArray: [String] = []
+    var enemiesArray: [String] = []
+    
     //MARK: - Components
     let characterImage: UIImageView = {
         let image = UIImageView()
+        image.translatesAutoresizingMaskIntoConstraints = false
         //colocar imagem que retorna da API
         return image
     }()
     
     let stackViewForInfos: UIStackView = {
         let stack = UIStackView()
+        stack.translatesAutoresizingMaskIntoConstraints = false
         return stack
     }()
     
     let name: UILabel = {
         let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     let films: UILabel = {
         let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        self.filmsArray.filter({
+            }
+            
+        })
         return label
     }()
     
     let shortFilms: UILabel = {
         let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     let tvShows: UILabel = {
         let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     let parkAttractions: UILabel = {
         let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     let allies: UILabel = {
         let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
     
     let enemies: UILabel = {
         let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        appSetup()
-    }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

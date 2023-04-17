@@ -46,8 +46,8 @@ class ViewModel {
             DispatchQueue.main.async {
                 do {
                     let response = try JSONDecoder().decode(ApiModel.self, from: data)
-                        //self.requestDelegate?.success(response)
                          self.charactersList = response.data
+                    print(response.data)
                     }
                 catch {
                     self.delegate?.errorMessage("Something went wrong on decode")
