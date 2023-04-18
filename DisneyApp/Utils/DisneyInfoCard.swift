@@ -39,10 +39,7 @@ class DisneyInfoCard: UITableViewCell {
     let films: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        self.filmsArray.filter({
-            }
-            
-        })
+  
         return label
     }()
     

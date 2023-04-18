@@ -22,6 +22,8 @@ protocol ViewModelDelegate {
     func errorMessage(_ message: String)
 }
 class ViewModel {
+    
+    
     var delegate: ViewModelDelegate?
     var charactersList: [Characters] = []
     

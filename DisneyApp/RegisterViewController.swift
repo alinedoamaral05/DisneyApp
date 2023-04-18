@@ -1,13 +1,14 @@
 //
-//  LoginViewController.swift
+//  RegisterViewController.swift
 //  DisneyApp
 //
-//  Created by Aline do Amaral on 11/04/23.
+//  Created by Aline do Amaral on 18/04/23.
 //
 
 import UIKit
+import FirebaseCore
 
-class LoginViewController: UIViewController {
+class RegisterViewController: UIViewController {
     //MARK: - Components
     private let scrollView: UIScrollView = {
         let scrollView = UIScrollView()
@@ -144,6 +145,7 @@ class LoginViewController: UIViewController {
     }
     
     //MARK: - Setup Layout
+    
     private func setupUI() {
         setupHierarchy()
         setupConstraints()
@@ -207,7 +209,7 @@ class LoginViewController: UIViewController {
 }
 
 //MARK: - Extensions
-extension LoginViewController: UITextFieldDelegate {
+extension RegisterViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.endEditing(true)
         return false
